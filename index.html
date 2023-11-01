@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+<body class="theme1">
+
+  <main>
+    <div class="container">
+      <div class="header">
+        <p>calc</p>
+        <div class="theme-div">
+          <p class="theme-text">THEME</p>
+          <div class="inputs-div">
+            <div class="labels">
+              <label for="theme1">1</label>
+              <label for="theme2">2</label>
+              <label for="theme3">3</label>
+            </div>
+            <div class="inputs">
+              <input type="radio" name="theme" id='theme1' checked >
+              <input type="radio" name="theme" id='theme2' >
+              <input type="radio" name="theme" id='theme3' >
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="screen">
+        <p class="previous"></p>
+        <p class="current"></p>
+      </div>
+      <div class="keyboard">
+        <button data-number class="number" type="button">7</button>
+        <button data-number class="number" type="button">8</button>
+        <button data-number class="number" type="button">9</button>
+        <button data-delete class="delete clean" type="button">DEL</button>
+        <button data-number class="number" type="button">4</button>
+        <button data-number class="number" type="button">5</button>
+        <button data-number class="number" type="button">6</button>
+        <button data-operation class="plus">+</button>
+        <button data-number class="number" type="button">1</button>
+        <button data-number class="number" type="button">2</button>
+        <button data-number class="number" type="button">3</button>
+        <button data-operation class="minus" type="button">-</button>
+        <button data-number class="dot" type="button">.</button>
+        <button data-number class="number" type="button">0</button>
+        <button data-operation class="divide" type="button">/</button>
+        <button data-operation class="multiply" type="button">x</button>
+        <button data-reset class='reset clean span-col-2' type="button">RESET</button>
+        <button data-equals class='span-col-2 equal' type="button">=</button>
+      </div>
+    </div>
+  </main>
+<script src="app.js"></script>
+</body>
+</html>
