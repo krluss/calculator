@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Live version: https://app.netlify.com/sites/brilliant-mousse-580a5e/overview
+Live version: https://brilliant-mousse-580a5e.netlify.app
 
 Thanks for checking out this front-end coding challenge.
 
